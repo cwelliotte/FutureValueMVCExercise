@@ -18,11 +18,10 @@ namespace FutureValue.Controllers
         [HttpPost]
         public IActionResult Index(FutureValue.Models.FutureValueModel model)
         {
-            Debug.WriteLine(model.Years.ToString());
-            Debug.WriteLine(model.YearlyInterestRate.ToString());
-            Debug.WriteLine(model.MonthlyInvestment.ToString());
-            ViewBag.FV = model.CalculateFutureValue();
-            Debug.WriteLine(model.CalculateFutureValue());
+            if (ModelState.IsValid)
+                ViewBag.FV = model.CalculateFutureValue();
+            else
+                ViewBag.FV = 0;
             return View(model);
         }
     }

@@ -30,3 +30,5 @@ C:\Murach\aspnet_core_mvc\ex\FutureValue\FutureValue\obj\Debug\netcoreapp3.1\Fut
 C:\Murach\aspnet_core_mvc\ex\FutureValue\FutureValue\obj\Debug\netcoreapp3.1\FutureValue.genruntimeconfig.cache
 C:\Murach\aspnet_core_mvc\ex\FutureValue\FutureValue\obj\Debug\netcoreapp3.1\FutureValue.csproj.CopyComplete
 C:\Murach\aspnet_core_mvc\ex\FutureValue\FutureValue\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Murach\aspnet_core_mvc\ex\FutureValue\FutureValue\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Murach\aspnet_core_mvc\ex\FutureValue\FutureValue\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
